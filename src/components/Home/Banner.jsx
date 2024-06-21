@@ -1,14 +1,11 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import herobg from "../../assets/heroBg.jpg"
+
 
 const Banner = () => {
   return (
     <div
-      className="hero min-h-screen"
-      style={{
-        backgroundImage:
-          "url(heroBg.jpg)",
-      }}
+      className="hero min-h-screen bannerBg"
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">

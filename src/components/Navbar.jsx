@@ -60,7 +60,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end space-x-2">
           <a className="btn">Login</a>
           <a className="btn">Sign Up</a>
         </div>

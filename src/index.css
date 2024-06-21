@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bannerBg{
+    background-image: url("/public/heroBg.jpg");
+    object-fit: cover;
+}
